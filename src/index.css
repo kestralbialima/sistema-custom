@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    /* Aumenta a escala base global para melhor legibilidade no formato mobile first */
+    font-size: 112.5%; 
+    scroll-behavior: smooth;
+  }
+}
